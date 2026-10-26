@@ -116,7 +116,7 @@ python train.py \
 
 
 ## Acknowledgments
-
+We gratefully acknowledge the projects that helped make GeoRecon possible, including:
 - [VGGT](https://github.com/facebookresearch/vggt)
 - [DynamiCrafter](https://github.com/Doubiiu/DynamiCrafter)
 - [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting)
