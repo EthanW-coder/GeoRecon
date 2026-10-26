@@ -116,6 +116,7 @@ python train.py \
 
 
 ## Acknowledgments
+
 We gratefully acknowledge the projects that helped make GeoRecon possible, including:
 - [VGGT](https://github.com/facebookresearch/vggt)
 - [DynamiCrafter](https://github.com/Doubiiu/DynamiCrafter)
@@ -125,9 +126,5 @@ We gratefully acknowledge the projects that helped make GeoRecon possible, inclu
 
 This repository's own source code is released under the [MIT License](LICENSE).
 
-GeoRecon is built on third-party components that are installed separately from their official
-sources and keep their own licenses. VGGT is licensed under CC BY-NC 4.0 and the Gaussian
-Splatting rasterizer under the Inria research license; both are non-commercial. As a result the
-assembled pipeline may only be used for research purposes, regardless of this repository's MIT
-license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the full list.
+
 
