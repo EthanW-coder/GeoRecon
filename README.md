@@ -46,8 +46,6 @@ Keep the two types of checkpoints in separate directories:
 checkpoints/
   vggt/model.pt
   dynamicrafter_512/model.ckpt
-  georecon/model.ckpt
-  georecon/model_sparse.ckpt
 ```
 
 ### Gaussian rasterization
