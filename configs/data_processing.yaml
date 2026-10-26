@@ -1,0 +1,55 @@
+# Paths are relative to this YAML file.
+catalog: ../data/catalog.json
+output_dir: ../data/manifests
+seed: 123
+
+sampling:
+  initialization_frames: 50
+  video_frames: 25
+  stride_min: 2
+  stride_max: 5
+  clips_per_scene: 1
+  reference_views: 2
+
+resolutions:
+  train-low: [320, 512]
+  train-high: [576, 1024]
+  eval: [512, 512]
+
+evaluation:
+  enforce_scene_counts: true
+  view_counts: [2, 3, 6]
+  frame_stride: 10
+  datasets:
+    dl3dv:
+      enabled: false
+      expected_scenes: 20
+      scene_ids: []
+      index_file: null
+      samples: []
+    tanks:
+      enabled: false
+      expected_scenes: 7
+      scene_ids: []
+      index_file: null
+      samples: []
+    mipnerf360:
+      enabled: false
+      expected_scenes: 9
+      scene_ids: [bicycle, bonsai, counter, flowers, garden, kitchen, room, stump, treehill]
+      index_file: null
+      samples: []
+    realestate10k:
+      enabled: false
+      expected_scenes: null
+      scene_ids: []
+      protocol: reconx_easy
+      index_file: null
+      samples: []
+    acid:
+      enabled: false
+      expected_scenes: null
+      scene_ids: []
+      protocol: reconx_easy
+      index_file: null
+      samples: []
